@@ -159,7 +159,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         selected: isSelected,
                         label: Text(course),
                         labelStyle: TextStyle(
-                          color: isSelected ? Colors.white : (isDark ? Colors.white70 : Colors.black86),
+                          color: isSelected ? Colors.white : (isDark ? Colors.white70 : Colors.black87),
                           fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
                         ),
                         selectedColor: AppColors.primary,
