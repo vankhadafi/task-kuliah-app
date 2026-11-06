@@ -27,7 +27,7 @@ jobs:
           cache: true
 
       - name: Recreate platform files
-        run: flutter create --platforms=android --org com.example .
+        run: flutter create --platforms=android --org com.example --project-name task_kuliah_app .
 
       - name: Get dependencies
         run: flutter pub get
